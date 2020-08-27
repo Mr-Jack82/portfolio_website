@@ -318,19 +318,26 @@ img {
       // Grid Areas
       .name-input {
         grid-area: name;
+        font-size: 1rem;
       }
       .subject-input {
         grid-area: subject;
+        font-size: 1rem;
       }
       .email-input {
         grid-area: email;
+        font-size: 1rem;
       }
       .phone-input {
         grid-area: phone;
+        font-size: 1rem;
       }
       .message-input {
         grid-area: message;
-        height: 100px;
+        resize: vertical;
+        min-height: 150px;
+        max-height: 500px;
+        font-size: 1rem;
       }
 
       .text-input {
